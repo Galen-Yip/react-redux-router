@@ -5,16 +5,16 @@ import middleware from '../middleware';
 import rootReducer from '../reducers';
 
 let craeteStoreWithMiddleware;
-// if(__DEBUG__) {
+if(__DEBUG__) {
     craeteStoreWithMiddleware = compose(
         applyMiddleware.apply(this, middleware),
         require('../containers/DevTools').default.instrument()
     )(createStore)
-// }else {
-//     craeteStoreWithMiddleware = compose(
-//         applyMiddleware.apply(this, middleware)
-//     )(createStore)
-// }
+}else {
+    craeteStoreWithMiddleware = compose(
+        applyMiddleware.apply(this, middleware)
+    )(createStore)
+}
 
 export default function configureStore(initialState) {
     const store = craeteStoreWithMiddleware(rootReducer, initialState)

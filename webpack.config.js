@@ -35,6 +35,9 @@ const common = {
             template: 'node_modules/html-webpack-template/index.html',
             title: 'react-redux-router',
             appMountId: 'app'
+        }),
+        new webpack.DefinePlugin({  
+            __DEBUG__: JSON.stringify(JSON.parse((TARGET === 'start') || 'false'))
         })
     ]
 }
