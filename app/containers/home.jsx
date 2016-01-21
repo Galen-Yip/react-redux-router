@@ -14,7 +14,7 @@ class Home extends React.Component {
     static propTypes = {
         items: React.PropTypes.object,
         filter: React.PropTypes.string
-    }
+    };
 
     render() {
         const styles = {

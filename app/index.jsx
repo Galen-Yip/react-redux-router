@@ -8,8 +8,8 @@ import { Provider } from 'react-redux';
 import { Router } from 'react-router';
 import createHistory from 'history/lib/createHashHistory';
 
-import routes from './routes/routes.jsx';
 import configureStore from './store/configureStore';
+import Home from './containers/home.jsx';
 
 const store = configureStore({});
 // const historyOptions = {
@@ -30,9 +30,7 @@ function renderDevTools(store) {
 ReactDOM.render(
     <div>
         <Provider store={ store }>
-            <Router history={createHistory()}>
-                { routes }
-            </Router>
+            <Home />
         </Provider>
         {renderDevTools(store)}
     </div>

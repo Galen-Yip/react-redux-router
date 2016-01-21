@@ -7,13 +7,11 @@ import classNames from 'classnames';
 
 class Content extends React.Component {
     render() {
-        console.log('-------' + JSON.stringify(this.props))
-        const items = this.props.items.toArray();
-
+        const items = this.props.items ? this.props.items.toArray() : [];
+        console.log(items)
         return(
             <ul>
-                {item.map(v => 
-                    <ListItem 
+                {items.map(v => <ListItem 
                         key={v} 
                         item={v}
                         filter={this.props.filter} 

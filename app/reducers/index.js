@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import home from './home.js';
-import notFound from './notFound.js';
+import item from './item.js';
+import filter from './filter.js';
 
 export default combineReducers({
-    home,
-    notFound
+    item,
+    filter
 })
