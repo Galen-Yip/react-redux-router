@@ -22,6 +22,7 @@ class Home extends React.Component {
             margin: '30px auto 0'
         }
         const actions = this.props.actions;
+        console.log('--------home.jsx: ' + JSON.stringify(this.props))
         return (
             <div style={styles}>
                 <h1>Home Page</h1>

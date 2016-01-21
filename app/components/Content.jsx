@@ -8,7 +8,6 @@ import classNames from 'classnames';
 class Content extends React.Component {
     render() {
         const items = this.props.items ? this.props.items.toArray() : [];
-        console.log(items)
         return(
             <ul>
                 {items.map(v => <ListItem 
