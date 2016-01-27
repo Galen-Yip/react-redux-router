@@ -16,19 +16,24 @@ class Home extends React.Component {
         filter: React.PropTypes.string
     };
 
+    onAddItem = (func) => {
+        setTimeout(func, 1000)
+    }
+
     render() {
         const styles = {
             width: '300px',
             margin: '30px auto 0'
         }
         const actions = this.props.actions;
-        console.log('--------home.jsx: ' + JSON.stringify(this.props))
+        console.log(this.props.actions.addItem)
+
         return (
             <div style={styles}>
                 <h1>Home Page</h1>
                 <SearchBar filterItem={actions.filterItem}/>
                 <Content items={this.props.items} filter={this.props.filter} deleteItem={actions.deleteItem} />
-                <Footer addItem={actions.addItem} deleteAll={actions.deleteAll} />
+                <Footer addItem={this.onAddItem.bind(null, actions.addItem)} deleteAll={actions.deleteAll} />
             </div>
         )
     }
