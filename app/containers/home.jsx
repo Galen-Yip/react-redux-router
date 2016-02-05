@@ -26,7 +26,6 @@ class Home extends React.Component {
             margin: '30px auto 0'
         }
         const actions = this.props.actions;
-        console.log(this.props.actions.addItem)
 
         return (
             <div style={styles}>

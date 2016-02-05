@@ -1,6 +1,6 @@
 // 入口文件
 
-import './main.css';
+import './main.less';
 
 import React from 'react'
 import ReactDOM from 'react-dom';

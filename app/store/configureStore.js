@@ -4,20 +4,20 @@ import { createStore, applyMiddleware, compose } from 'redux';
 import middleware from '../middleware';
 import rootReducer from '../reducers';
 
-let craeteStoreWithMiddleware;
+let createStoreWithMiddleware;
 if(__DEBUG__) {
-    craeteStoreWithMiddleware = compose(
+    createStoreWithMiddleware = compose(
         applyMiddleware.apply(this, middleware),
         require('../containers/DevTools').default.instrument()
     )(createStore)
 }else {
-    craeteStoreWithMiddleware = compose(
+    createStoreWithMiddleware = compose(
         applyMiddleware.apply(this, middleware)
     )(createStore)
 }
 
 export default function configureStore(initialState) {
-    const store = craeteStoreWithMiddleware(rootReducer, initialState)
+    const store = createStoreWithMiddleware(rootReducer, initialState)
 
     if(module.hot) {
         module.hot.accept('../reducers', () => {

@@ -27,6 +27,7 @@ const common = {
     module: {
         loaders: [
             {test: /\.jsx?$/, loaders: ['babel'], include: PATHS.app },
+            {test: /\.less$/, loader: 'style!css!less', include: PATHS.app },
             {test: /\.css$/, loaders: ['style', 'css'], include: PATHS.app }
         ]
     },
@@ -65,8 +66,8 @@ if(TARGET === 'start' || !TARGET) {
 if(TARGET === 'build') {
     module.exports = merge(common, {
         entry: {
-            app: APP_PATH,
-            vendor: Object.keys(pkg.dependencies)
+            app: PATHS.app,
+            vendors: Object.keys(pkg.dependencies)
         },
         output: {
             path: PATHS.build,
@@ -74,9 +75,6 @@ if(TARGET === 'build') {
         },
         module: {
             loaders: [
-                {test: /\.jsx?$/, loaders: ['babel'], include: PATHS.app },
-                {test: /\.less$/, loader: 'style!css!less', include: PATHS.app },
-                {test: /\.css$/, loader: 'style!css', include: PATHS.app },
                 {test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192', include: PATHS.app },
                 {test: /\.(woff|woff2)$/, loader: 'url-loader?limit=100000', include: PATHS.app }
             ]

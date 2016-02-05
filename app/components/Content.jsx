@@ -23,7 +23,7 @@ class Content extends React.Component {
 
 class ListItem extends React.Component {
     render() {
-        const liClass = classNames({ hidden: !_.isEmpty(this.props.filter && this.props.filter != this.props.item)})
+        const liClass = classNames({ hidden: !_.isEmpty(this.props.filter) && this.props.filter != this.props.item})
 
         return(
             <li className={liClass}>
@@ -33,6 +33,5 @@ class ListItem extends React.Component {
         )
     }
 }
-
 
 export default Content
