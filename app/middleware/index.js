@@ -17,7 +17,7 @@ import thunk from 'redux-thunk';
 
 
 export default [
-    thunk,
+    thunk
     // logger,
     // request
 ]

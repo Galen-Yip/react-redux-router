@@ -16,10 +16,6 @@ class Home extends React.Component {
         filter: React.PropTypes.string
     };
 
-    onAddItem = (func) => {
-        setTimeout(func, 1000)
-    }
-
     render() {
         const styles = {
             width: '300px',
@@ -32,7 +28,7 @@ class Home extends React.Component {
                 <h1>Home Page</h1>
                 <SearchBar filterItem={actions.filterItem}/>
                 <Content items={this.props.items} filter={this.props.filter} deleteItem={actions.deleteItem} />
-                <Footer addItem={this.onAddItem.bind(null, actions.addItem)} deleteAll={actions.deleteAll} />
+                <Footer addItem={actions.addItemAsync} deleteAll={actions.deleteAll} />
             </div>
         )
     }

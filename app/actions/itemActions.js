@@ -6,6 +6,14 @@ export function addItem() {
     }
 }
 
+export function addItemAsync() {
+    return dispatch => {
+        setTimeout(() => {
+            dispatch(addItem())
+        }, 1000)
+    }
+}
+
 export function deleteItem(item) {
     return {
         type: DELETE_ITEM,
