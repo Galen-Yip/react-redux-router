@@ -5,16 +5,20 @@ import './main.less';
 import React from 'react'
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { Router } from 'react-router';
-import createHistory from 'history/lib/createHashHistory';
+import createBrowserHistory from 'history/lib/createBrowserHistory';
 
-import routes from './routes/routes';
+import createRoutes from './routes/routes';
 import configureStore from './store/configureStore';
+import { fromJS } from 'immutable';
 
-const store = configureStore({});
-// const historyOptions = {
-//   queryKey : false
-// };
+const initialState = window.__INITIAL_STATE__;
+if(initialState) {
+    Object.keys(initialState).forEach(key => {
+        initialState[key] = fromJS(initialState[key])
+    })
+}
+const store = configureStore(initialState);
+const history = createBrowserHistory();
 
 function renderDevTools(store) {
     if(__DEBUG__) {
@@ -30,9 +34,7 @@ function renderDevTools(store) {
 ReactDOM.render(
     <div>
         <Provider store={ store }>
-            <Router history={createHistory()}>
-                {routes}
-            </Router>
+            {createRoutes(history)}
         </Provider>
         {renderDevTools(store)}
     </div>

@@ -1,9 +1,12 @@
-var path = require('path');
-var HtmlwebpackPlugin = require('html-webpack-plugin');
-var webpack = require('webpack');
-var merge = require('webpack-merge');
+const path = require('path');
+const HtmlwebpackPlugin = require('html-webpack-plugin');
+const CleanPlugin = require('clean-webpack-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
-var pkg = require('./package.json');
+const webpack = require('webpack');
+const merge = require('webpack-merge');
+
+const pkg = require('./package.json');
 
 const TARGET = process.env.npm_lifecycle_event;
 process.env.BABEL_ENV = TARGET;
@@ -26,9 +29,7 @@ const common = {
     },
     module: {
         loaders: [
-            {test: /\.jsx?$/, loaders: ['babel'], include: PATHS.app },
-            {test: /\.less$/, loader: 'style!css!less', include: PATHS.app },
-            {test: /\.css$/, loaders: ['style', 'css'], include: PATHS.app }
+            {test: /\.jsx?$/, loaders: ['babel'], include: PATHS.app }
         ]
     },
     plugins: [
@@ -57,6 +58,12 @@ if(TARGET === 'start' || !TARGET) {
             host: process.env.HOST,
             port: process.env.PORT
         },
+        module: {
+            loaders: [
+                {test: /\.less$/, loader: 'style!css!less', include: PATHS.app },
+                {test: /\.css$/, loaders: ['style', 'css'], include: PATHS.app }
+            ]
+        },
         plugins: [
             new webpack.HotModuleReplacementPlugin()
         ]
@@ -64,28 +71,42 @@ if(TARGET === 'start' || !TARGET) {
 }
 
 if(TARGET === 'build') {
+    const vendors = Object.keys(pkg.dependencies).filter((v) => {
+        return v!== 'express'
+    })
+
     module.exports = merge(common, {
         entry: {
             app: PATHS.app,
-            vendors: Object.keys(pkg.dependencies)
+            vendors: vendors
         },
         output: {
             path: PATHS.build,
-            filename: '[name].[chunkhash].js'
+            filename: '[name].[chunkhash].js',
+            chunkFilename: '[chunkhash].js',
         },
         module: {
             loaders: [
+                {test: /\.less$/, loader: ExtractTextPlugin.extract('style', 'css', 'less'), include: PATHS.app },
+                {test: /\.css$/, loaders: ExtractTextPlugin.extract('style', 'css'), include: PATHS.app },
                 {test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192', include: PATHS.app },
                 {test: /\.(woff|woff2)$/, loader: 'url-loader?limit=100000', include: PATHS.app }
             ]
         },
         plugins: [
-            new webpack.optimize.CommonsChunkPlugin('vendors', 'vendors.js'),
+            new webpack.optimize.CommonsChunkPlugin({name:'vendors'}),
             new webpack.optimize.UglifyJsPlugin({
                 compress: {
                     warnings: false
                 }
-            })
+            }),
+            new webpack.DefinePlugin({  
+                'process.env': {
+                    NODE_ENV: '"production"'
+                }
+            }),
+            new CleanPlugin([PATHS.build]),
+            new ExtractTextPlugin('[name].[contenthash:20].css')
         ]
     })
 }
