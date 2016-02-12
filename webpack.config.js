@@ -87,8 +87,8 @@ if(TARGET === 'build') {
         },
         module: {
             loaders: [
-                {test: /\.less$/, loader: ExtractTextPlugin.extract('style', 'css', 'less'), include: PATHS.app },
-                {test: /\.css$/, loaders: ExtractTextPlugin.extract('style', 'css'), include: PATHS.app },
+                {test: /\.less$/, loader: ExtractTextPlugin.extract('style', 'css!less'), include: PATHS.app },
+                {test: /\.css$/, loader: ExtractTextPlugin.extract('style', 'css'), include: PATHS.app },
                 {test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192', include: PATHS.app },
                 {test: /\.(woff|woff2)$/, loader: 'url-loader?limit=100000', include: PATHS.app }
             ]
