@@ -5,6 +5,8 @@ Redux and React Router Example App
 
 a demo about react、redux and react-router
 
+!['overview'](http://7xnand.com1.z0.glb.clouddn.com/github-redux-overview.png)
+
 ### Why
 This project was started, because I found myself and many developers would like to get 
 an insight on how Redux and React Router can be used.
