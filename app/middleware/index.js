@@ -1,3 +1,4 @@
+import { apiMiddleware } from 'redux-api-middleware';
 import thunk from 'redux-thunk';
 // import createLogger from 'redux-logger';
 // import request from 'react-request';
@@ -17,6 +18,7 @@ import thunk from 'redux-thunk';
 
 
 export default [
+    apiMiddleware,
     thunk
     // logger,
     // request

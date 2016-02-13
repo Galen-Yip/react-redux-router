@@ -1,5 +1,6 @@
 import path from 'path';
 import express from 'express';
+import bodyParser from 'body-parser';
 
 import React from 'react';
 import { renderToString } from 'react-dom/server';
@@ -16,7 +17,12 @@ import createRoutes from './app/routes/routes';
 const app = express();
 const port = process.env.PORT || 3000;
 
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs');
+
 app.use('/build', express.static(path.join(__dirname, 'build')));  //设置build文件夹为存放静态文件的目录
+app.use(bodyParser.json());
+// app,use('/api', apiRoutes);
 app.use(handleRender);
 
 function handleRender(req, res) {
@@ -50,42 +56,51 @@ function handleRender(req, res) {
 
         const initialState = store.getState();
 
-        res.status(200).send(renderFullPage(initialView, initialState))
+        const assets = require('./stats.json');
+
+        res.render('index', {
+            html: initialView,
+            assets,
+            initialState
+        })
+        // res.status(200).send(renderFullPage(initialView, initialState))
     })
 
 
 }
 
-function renderFullPage(html, initialState) {
-    const assets =  require('./stats.json');
+// function renderFullPage(html, initialState) {
+//     const assets = require('./stats.json');
 
-    return `
-        <!DOCTYPE html>
-            <!--[if lt IE 7 ]> <html lang="en" class="ie6" > <![endif]-->
-            <!--[if IE 7 ]>    <html lang="en" class="ie7" > <![endif]-->
-            <!--[if IE 8 ]>    <html lang="en" class="ie8" > <![endif]-->
-            <!--[if IE 9 ]>    <html lang="en" class="ie9" > <![endif]-->
-            <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="" > <!--<![endif]-->
-            <head>
-              <meta charset="utf-8">
-              <title>react-redux-router</title>
-              <link href="./build/${assets.assetsByChunkName.app[1]}" rel="stylesheet">
+//     return `
+//         <!DOCTYPE html>
+//             <!--[if lt IE 7 ]> <html lang="en" class="ie6" > <![endif]-->
+//             <!--[if IE 7 ]>    <html lang="en" class="ie7" > <![endif]-->
+//             <!--[if IE 8 ]>    <html lang="en" class="ie8" > <![endif]-->
+//             <!--[if IE 9 ]>    <html lang="en" class="ie9" > <![endif]-->
+//             <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="" > <!--<![endif]-->
+//             <head>
+//               <meta charset="utf-8">
+//               <title>react-redux-router</title>
+//               <link href="./build/${assets.assetsByChunkName.app[1]}" rel="stylesheet">
               
-            </head>
-            <body>
+//             </head>
+//             <body>
 
-            <div id="app">${html}</div>
-            <script>
-                window.__INITIAL_STATE__ = ${JSON.stringify(initialState)}
-            </script>
-            <script src="./build/${assets.assetsByChunkName.vendors}"></script>
+//             <div id="app">${html}</div>
+//             <script>
+//                 window.__INITIAL_STATE__ = ${JSON.stringify(initialState)}
+//             </script>
+//             <script src="http://cdn.bootcss.com/react/0.14.7/react.min.js"></script>
+//             <script src="http://cdn.bootcss.com/react/0.14.7/react-dom.min.js"></script>
+//             <script src="./build/${assets.assetsByChunkName.vendors}"></script>
 
-            <script src="./build/${assets.assetsByChunkName.app[0]}"></script>
+//             <script src="./build/${assets.assetsByChunkName.app[0]}"></script>
 
-            </body>
-        </html>
-        `
-}
+//             </body>
+//         </html>
+//         `
+// }
 
 app.listen(port, () => {
     console.log('this server is running on ' + port)
