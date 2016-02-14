@@ -66,8 +66,16 @@ if(TARGET === 'start' || !TARGET) {
 }
 
 if(TARGET === 'build') {
+    // pack into vendors unless server side depend on.
+    const whiteLists = [
+        'express',
+        'body-parser',
+        'compression',
+        'ejs'
+    ]
+
     const vendors = Object.keys(pkg.dependencies).filter((v) => {
-        return v!== 'express'
+        return whiteLists.indexOf(v) === -1
     })
 
     module.exports = merge(common, {

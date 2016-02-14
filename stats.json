@@ -3,7 +3,7 @@
   "warnings": [],
   "version": "1.12.9",
   "hash": "4719ca2b540d84488e6f",
-  "time": 14148,
+  "time": 13599,
   "publicPath": "",
   "assetsByChunkName": {
     "app": [
@@ -91,9 +91,9 @@
           "assets": [],
           "issuer": null,
           "profile": {
-            "factory": 85,
-            "building": 5865,
-            "dependencies": 18
+            "factory": 109,
+            "building": 5216,
+            "dependencies": 17
           },
           "failed": false,
           "errors": 0,
@@ -118,8 +118,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/index.jsx",
           "profile": {
-            "factory": 602,
-            "building": 17
+            "factory": 718,
+            "building": 14
           },
           "failed": false,
           "errors": 0,
@@ -154,9 +154,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/index.jsx",
           "profile": {
-            "factory": 31,
-            "building": 1322,
-            "dependencies": 1
+            "factory": 32,
+            "building": 635,
+            "dependencies": 2
           },
           "failed": false,
           "errors": 0,
@@ -191,9 +191,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/routes/routes.jsx",
           "profile": {
-            "factory": 106,
-            "building": 247,
-            "dependencies": 2
+            "factory": 704,
+            "building": 253,
+            "dependencies": 3
           },
           "failed": false,
           "errors": 0,
@@ -228,8 +228,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/containers/app.jsx",
           "profile": {
-            "factory": 828,
-            "building": 53,
+            "factory": 373,
+            "building": 543,
             "dependencies": 2
           },
           "failed": false,
@@ -265,9 +265,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/routes/routes.jsx",
           "profile": {
-            "factory": 106,
-            "building": 447,
-            "dependencies": 114
+            "factory": 704,
+            "building": 449,
+            "dependencies": 98
           },
           "failed": false,
           "errors": 0,
@@ -302,9 +302,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/containers/home.jsx",
           "profile": {
-            "factory": 629,
-            "building": 224,
-            "dependencies": 118
+            "factory": 177,
+            "building": 595,
+            "dependencies": 202
           },
           "failed": false,
           "errors": 0,
@@ -339,9 +339,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/containers/home.jsx",
           "profile": {
-            "factory": 629,
-            "building": 132,
-            "dependencies": 210
+            "factory": 178,
+            "building": 677,
+            "dependencies": 118
           },
           "failed": false,
           "errors": 0,
@@ -376,9 +376,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/containers/home.jsx",
           "profile": {
-            "factory": 630,
-            "building": 274,
-            "dependencies": 67
+            "factory": 178,
+            "building": 727,
+            "dependencies": 69
           },
           "failed": false,
           "errors": 0,
@@ -413,9 +413,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/containers/home.jsx",
           "profile": {
-            "factory": 630,
-            "building": 316,
-            "dependencies": 34
+            "factory": 179,
+            "building": 790,
+            "dependencies": 80
           },
           "failed": false,
           "errors": 0,
@@ -450,8 +450,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/reducers/items.js",
           "profile": {
-            "factory": 163,
-            "building": 53
+            "factory": 31,
+            "building": 44
           },
           "failed": false,
           "errors": 0,
@@ -504,9 +504,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/routes/routes.jsx",
           "profile": {
-            "factory": 106,
-            "building": 521,
-            "dependencies": 1
+            "factory": 705,
+            "building": 524,
+            "dependencies": 2
           },
           "failed": false,
           "errors": 0,
@@ -542,7 +542,7 @@
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/index.jsx",
           "profile": {
             "factory": 34,
-            "building": 565,
+            "building": 681,
             "dependencies": 2
           },
           "failed": false,
@@ -578,9 +578,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/store/configureStore.js",
           "profile": {
-            "factory": 890,
-            "building": 512,
-            "dependencies": 27
+            "factory": 691,
+            "building": 529,
+            "dependencies": 53
           },
           "failed": false,
           "errors": 0,
@@ -615,9 +615,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/store/configureStore.js",
           "profile": {
-            "factory": 891,
-            "building": 525,
-            "dependencies": 3
+            "factory": 691,
+            "building": 547,
+            "dependencies": 2
           },
           "failed": false,
           "errors": 0,
@@ -652,8 +652,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/reducers/index.js",
           "profile": {
-            "factory": 525,
-            "building": 180,
+            "factory": 538,
+            "building": 340,
             "dependencies": 1
           },
           "failed": false,
@@ -689,9 +689,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/reducers/index.js",
           "profile": {
-            "factory": 525,
-            "building": 336,
-            "dependencies": 9
+            "factory": 538,
+            "building": 363,
+            "dependencies": 8
           },
           "failed": false,
           "errors": 0,
@@ -757,7 +757,7 @@
           "issuer": null,
           "profile": {
             "factory": 0,
-            "building": 1
+            "building": 2
           },
           "failed": false,
           "errors": 0,
@@ -1056,9 +1056,9 @@
           "assets": [],
           "issuer": "multi vendors",
           "profile": {
-            "factory": 63,
-            "building": 719,
-            "dependencies": 3
+            "factory": 67,
+            "building": 750,
+            "dependencies": 4
           },
           "failed": false,
           "errors": 0,
@@ -1119,8 +1119,8 @@
           "assets": [],
           "issuer": "multi vendors",
           "profile": {
-            "factory": 64,
-            "building": 750
+            "factory": 82,
+            "building": 770
           },
           "failed": false,
           "errors": 0,
@@ -1190,9 +1190,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/index.js",
           "profile": {
-            "factory": 5124,
-            "building": 450,
-            "dependencies": 68
+            "factory": 4462,
+            "building": 504,
+            "dependencies": 84
           },
           "failed": false,
           "errors": 0,
@@ -1236,8 +1236,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/createBrowserHistory.js",
           "profile": {
-            "factory": 1189,
-            "building": 397
+            "factory": 1060,
+            "building": 418
           },
           "failed": false,
           "errors": 0,
@@ -1299,8 +1299,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/index.js",
           "profile": {
-            "factory": 5127,
-            "building": 486
+            "factory": 4465,
+            "building": 553
           },
           "failed": false,
           "errors": 0,
@@ -1389,8 +1389,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/createBrowserHistory.js",
           "profile": {
-            "factory": 70,
-            "building": 937
+            "factory": 86,
+            "building": 785
           },
           "failed": false,
           "errors": 0,
@@ -1461,8 +1461,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/createBrowserHistory.js",
           "profile": {
-            "factory": 71,
-            "building": 937
+            "factory": 87,
+            "building": 786
           },
           "failed": false,
           "errors": 0,
@@ -1524,9 +1524,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/createBrowserHistory.js",
           "profile": {
-            "factory": 72,
-            "building": 942,
-            "dependencies": 174
+            "factory": 87,
+            "building": 787,
+            "dependencies": 188
           },
           "failed": false,
           "errors": 0,
@@ -1570,8 +1570,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/createHashHistory.js",
           "profile": {
-            "factory": 1174,
-            "building": 398
+            "factory": 1043,
+            "building": 418
           },
           "failed": false,
           "errors": 0,
@@ -1660,9 +1660,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/createBrowserHistory.js",
           "profile": {
-            "factory": 73,
-            "building": 937,
-            "dependencies": 179
+            "factory": 95,
+            "building": 782,
+            "dependencies": 184
           },
           "failed": false,
           "errors": 0,
@@ -1706,9 +1706,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/createMemoryHistory.js",
           "profile": {
-            "factory": 53,
-            "building": 950,
-            "dependencies": 1
+            "factory": 72,
+            "building": 788,
+            "dependencies": 2
           },
           "failed": false,
           "errors": 0,
@@ -1752,8 +1752,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/createHistory.js",
           "profile": {
-            "factory": 543,
-            "building": 522
+            "factory": 570,
+            "building": 531
           },
           "failed": false,
           "errors": 0,
@@ -1788,8 +1788,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/node_modules/deep-equal/index.js",
           "profile": {
-            "factory": 307,
-            "building": 56
+            "factory": 292,
+            "building": 91
           },
           "failed": false,
           "errors": 0,
@@ -1824,8 +1824,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/node_modules/deep-equal/index.js",
           "profile": {
-            "factory": 307,
-            "building": 50
+            "factory": 293,
+            "building": 91
           },
           "failed": false,
           "errors": 0,
@@ -1860,8 +1860,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/createHistory.js",
           "profile": {
-            "factory": 167,
-            "building": 397
+            "factory": 179,
+            "building": 418
           },
           "failed": false,
           "errors": 0,
@@ -1896,8 +1896,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/index.js",
           "profile": {
-            "factory": 5124,
-            "building": 447,
+            "factory": 4462,
+            "building": 501,
             "dependencies": 0
           },
           "failed": false,
@@ -1942,9 +1942,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/createLocation.js",
           "profile": {
-            "factory": 70,
-            "building": 937,
-            "dependencies": 184
+            "factory": 87,
+            "building": 784,
+            "dependencies": 194
           },
           "failed": false,
           "errors": 0,
@@ -2033,8 +2033,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/useBasename.js",
           "profile": {
-            "factory": 38,
-            "building": 953
+            "factory": 61,
+            "building": 793
           },
           "failed": false,
           "errors": 0,
@@ -2076,11 +2076,11 @@
             1
           ],
           "assets": [],
-          "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/useQueries.js",
+          "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/useBasename.js",
           "profile": {
-            "factory": 43,
-            "building": 950,
-            "dependencies": 164
+            "factory": 60,
+            "building": 791,
+            "dependencies": 176
           },
           "failed": false,
           "errors": 0,
@@ -2133,8 +2133,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/index.js",
           "profile": {
-            "factory": 5123,
-            "building": 446
+            "factory": 4461,
+            "building": 499
           },
           "failed": false,
           "errors": 0,
@@ -2223,8 +2223,8 @@
           "assets": [],
           "issuer": "multi vendors",
           "profile": {
-            "factory": 62,
-            "building": 677
+            "factory": 78,
+            "building": 696
           },
           "failed": false,
           "errors": 0,
@@ -2285,9 +2285,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
           "profile": {
-            "factory": 314,
-            "building": 4938,
-            "dependencies": 452
+            "factory": 353,
+            "building": 4577,
+            "dependencies": 188
           },
           "failed": false,
           "errors": 0,
@@ -2322,8 +2322,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/Router.js",
           "profile": {
-            "factory": 1585,
-            "building": 387
+            "factory": 1173,
+            "building": 394
           },
           "failed": false,
           "errors": 0,
@@ -2403,9 +2403,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/index.js",
           "profile": {
-            "factory": 5125,
-            "building": 462,
-            "dependencies": 1176
+            "factory": 4463,
+            "building": 521,
+            "dependencies": 1043
           },
           "failed": false,
           "errors": 0,
@@ -2449,9 +2449,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
           "profile": {
-            "factory": 320,
-            "building": 5308,
-            "dependencies": 1210
+            "factory": 358,
+            "building": 4659,
+            "dependencies": 1088
           },
           "failed": false,
           "errors": 0,
@@ -2549,9 +2549,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
           "profile": {
-            "factory": 320,
-            "building": 5320,
-            "dependencies": 1200
+            "factory": 360,
+            "building": 4663,
+            "dependencies": 1084
           },
           "failed": false,
           "errors": 0,
@@ -2593,10 +2593,10 @@
             1
           ],
           "assets": [],
-          "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/Redirect.js",
+          "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/IndexRedirect.js",
           "profile": {
-            "factory": 1238,
-            "building": 386
+            "factory": 1147,
+            "building": 394
           },
           "failed": false,
           "errors": 0,
@@ -2694,8 +2694,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/RoutingContext.js",
           "profile": {
-            "factory": 76,
-            "building": 936,
+            "factory": 99,
+            "building": 786,
             "dependencies": 0
           },
           "failed": false,
@@ -2731,9 +2731,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/Redirect.js",
           "profile": {
-            "factory": 106,
-            "building": 924,
-            "dependencies": 210
+            "factory": 140,
+            "building": 772,
+            "dependencies": 215
           },
           "failed": false,
           "errors": 0,
@@ -2804,9 +2804,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
           "profile": {
-            "factory": 319,
-            "building": 5315,
-            "dependencies": 1204
+            "factory": 358,
+            "building": 4650,
+            "dependencies": 1096
           },
           "failed": false,
           "errors": 0,
@@ -2859,9 +2859,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/index.js",
           "profile": {
-            "factory": 5127,
-            "building": 479,
-            "dependencies": 1156
+            "factory": 4465,
+            "building": 550,
+            "dependencies": 1013
           },
           "failed": false,
           "errors": 0,
@@ -2914,8 +2914,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/useQueries.js",
           "profile": {
-            "factory": 974,
-            "building": 518
+            "factory": 822,
+            "building": 530
           },
           "failed": false,
           "errors": 0,
@@ -2950,8 +2950,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/node_modules/query-string/index.js",
           "profile": {
-            "factory": 578,
-            "building": 338
+            "factory": 594,
+            "building": 358
           },
           "failed": false,
           "errors": 0,
@@ -2986,9 +2986,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/useRoutes.js",
           "profile": {
-            "factory": 73,
-            "building": 928,
-            "dependencies": 2
+            "factory": 112,
+            "building": 774,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -3023,8 +3023,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/useRoutes.js",
           "profile": {
-            "factory": 74,
-            "building": 931
+            "factory": 113,
+            "building": 776
           },
           "failed": false,
           "errors": 0,
@@ -3059,8 +3059,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/TransitionUtils.js",
           "profile": {
-            "factory": 202,
-            "building": 386
+            "factory": 210,
+            "building": 393
           },
           "failed": false,
           "errors": 0,
@@ -3113,8 +3113,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/useRoutes.js",
           "profile": {
-            "factory": 74,
-            "building": 934,
+            "factory": 113,
+            "building": 779,
             "dependencies": 0
           },
           "failed": false,
@@ -3150,9 +3150,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/useRoutes.js",
           "profile": {
-            "factory": 74,
-            "building": 936,
-            "dependencies": 197
+            "factory": 113,
+            "building": 780,
+            "dependencies": 206
           },
           "failed": false,
           "errors": 0,
@@ -3187,9 +3187,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/useRoutes.js",
           "profile": {
-            "factory": 75,
-            "building": 941,
-            "dependencies": 191
+            "factory": 114,
+            "building": 784,
+            "dependencies": 201
           },
           "failed": false,
           "errors": 0,
@@ -3224,8 +3224,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
           "profile": {
-            "factory": 321,
-            "building": 5321,
+            "factory": 360,
+            "building": 4669,
             "dependencies": 0
           },
           "failed": false,
@@ -3315,8 +3315,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
           "profile": {
-            "factory": 315,
-            "building": 4950,
+            "factory": 354,
+            "building": 4595,
             "dependencies": 0
           },
           "failed": false,
@@ -3361,9 +3361,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
           "profile": {
-            "factory": 315,
-            "building": 4953,
-            "dependencies": 1
+            "factory": 354,
+            "building": 4599,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -3398,9 +3398,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
           "profile": {
-            "factory": 316,
-            "building": 5297,
-            "dependencies": 1227
+            "factory": 354,
+            "building": 4604,
+            "dependencies": 1146
           },
           "failed": false,
           "errors": 0,
@@ -3435,9 +3435,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
           "profile": {
-            "factory": 317,
-            "building": 5284,
-            "dependencies": 2
+            "factory": 355,
+            "building": 4625,
+            "dependencies": 1126
           },
           "failed": false,
           "errors": 0,
@@ -3481,9 +3481,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
           "profile": {
-            "factory": 316,
-            "building": 5292,
-            "dependencies": 1232
+            "factory": 355,
+            "building": 4614,
+            "dependencies": 1137
           },
           "failed": false,
           "errors": 0,
@@ -3518,9 +3518,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
           "profile": {
-            "factory": 317,
-            "building": 5302,
-            "dependencies": 1221
+            "factory": 356,
+            "building": 4633,
+            "dependencies": 1117
           },
           "failed": false,
           "errors": 0,
@@ -3555,9 +3555,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
           "profile": {
-            "factory": 318,
-            "building": 5299,
-            "dependencies": 0
+            "factory": 356,
+            "building": 4636,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -3592,9 +3592,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
           "profile": {
-            "factory": 318,
-            "building": 5306,
-            "dependencies": 1216
+            "factory": 357,
+            "building": 4639,
+            "dependencies": 1110
           },
           "failed": false,
           "errors": 0,
@@ -3629,8 +3629,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
           "profile": {
-            "factory": 319,
-            "building": 5303,
+            "factory": 358,
+            "building": 4640,
             "dependencies": 0
           },
           "failed": false,
@@ -3666,9 +3666,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
           "profile": {
-            "factory": 321,
-            "building": 5324,
-            "dependencies": 1196
+            "factory": 361,
+            "building": 4673,
+            "dependencies": 1073
           },
           "failed": false,
           "errors": 0,
@@ -3703,9 +3703,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/index.js",
           "profile": {
-            "factory": 5125,
-            "building": 469,
-            "dependencies": 1169
+            "factory": 4463,
+            "building": 527,
+            "dependencies": 1038
           },
           "failed": false,
           "errors": 0,
@@ -3749,9 +3749,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/index.js",
           "profile": {
-            "factory": 5126,
-            "building": 485,
-            "dependencies": 38
+            "factory": 4464,
+            "building": 538,
+            "dependencies": 51
           },
           "failed": false,
           "errors": 0,
@@ -3795,8 +3795,8 @@
           "assets": [],
           "issuer": "multi vendors",
           "profile": {
-            "factory": 74,
-            "building": 989
+            "factory": 93,
+            "building": 1022
           },
           "failed": false,
           "errors": 0,
@@ -3866,9 +3866,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-immutable-render-mixin/lib/index.js",
           "profile": {
-            "factory": 4897,
-            "building": 499,
-            "dependencies": 19
+            "factory": 4216,
+            "building": 557,
+            "dependencies": 23
           },
           "failed": false,
           "errors": 0,
@@ -3912,8 +3912,8 @@
           "assets": [],
           "issuer": "multi vendors",
           "profile": {
-            "factory": 72,
-            "building": 981
+            "factory": 90,
+            "building": 1022
           },
           "failed": false,
           "errors": 0,
@@ -3983,9 +3983,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-immutable-render-mixin/lib/index.js",
           "profile": {
-            "factory": 4898,
-            "building": 499,
-            "dependencies": 839
+            "factory": 4217,
+            "building": 558
           },
           "failed": false,
           "errors": 0,
@@ -4018,10 +4017,10 @@
             1
           ],
           "assets": [],
-          "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-immutable-render-mixin/lib/immutableRenderDecorator.js",
+          "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-immutable-render-mixin/lib/immutableRenderMixin.js",
           "profile": {
-            "factory": 842,
-            "building": 286,
+            "factory": 692,
+            "building": 295,
             "dependencies": 0
           },
           "failed": false,
@@ -4066,8 +4065,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-immutable-render-mixin/lib/index.js",
           "profile": {
-            "factory": 4898,
-            "building": 496
+            "factory": 4217,
+            "building": 559,
+            "dependencies": 692
           },
           "failed": false,
           "errors": 0,
@@ -4102,8 +4102,8 @@
           "assets": [],
           "issuer": "multi vendors",
           "profile": {
-            "factory": 60,
-            "building": 669
+            "factory": 64,
+            "building": 700
           },
           "failed": false,
           "errors": 0,
@@ -4146,8 +4146,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/lodash/index.js",
           "profile": {
-            "factory": 325,
-            "building": 5283
+            "factory": 348,
+            "building": 4585
           },
           "failed": false,
           "errors": 0,
@@ -4182,8 +4182,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/lodash/lodash.js",
           "profile": {
-            "factory": 1030,
-            "building": 239
+            "factory": 958,
+            "building": 248
           },
           "failed": false,
           "errors": 0,
@@ -4218,8 +4218,8 @@
           "assets": [],
           "issuer": "multi vendors",
           "profile": {
-            "factory": 48,
-            "building": 678
+            "factory": 59,
+            "building": 702
           },
           "failed": false,
           "errors": 0,
@@ -4262,8 +4262,8 @@
           "assets": [],
           "issuer": "multi vendors",
           "profile": {
-            "factory": 75,
-            "building": 993
+            "factory": 96,
+            "building": 1042
           },
           "failed": false,
           "errors": 0,
@@ -4306,8 +4306,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/lib/index.js",
           "profile": {
-            "factory": 4894,
-            "building": 499
+            "factory": 4195,
+            "building": 564
           },
           "failed": false,
           "errors": 0,
@@ -4360,9 +4360,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/lib/index.js",
           "profile": {
-            "factory": 4895,
-            "building": 500,
-            "dependencies": 0
+            "factory": 4196,
+            "building": 566,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -4406,8 +4406,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/lib/validateRSAA.js",
           "profile": {
-            "factory": 1125,
-            "building": 385
+            "factory": 983,
+            "building": 395
           },
           "failed": false,
           "errors": 0,
@@ -4442,8 +4442,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/node_modules/lodash.isplainobject/index.js",
           "profile": {
-            "factory": 822,
-            "building": 51
+            "factory": 827,
+            "building": 84
           },
           "failed": false,
           "errors": 0,
@@ -4478,8 +4478,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/node_modules/lodash.isplainobject/index.js",
           "profile": {
-            "factory": 822,
-            "building": 61
+            "factory": 827,
+            "building": 85
           },
           "failed": false,
           "errors": 0,
@@ -4523,9 +4523,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/node_modules/lodash.isplainobject/index.js",
           "profile": {
-            "factory": 823,
-            "building": 53,
-            "dependencies": 18
+            "factory": 828,
+            "building": 86,
+            "dependencies": 19
           },
           "failed": false,
           "errors": 0,
@@ -4560,8 +4560,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/node_modules/lodash.isplainobject/node_modules/lodash.keysin/index.js",
           "profile": {
-            "factory": 49,
-            "building": 22
+            "factory": 63,
+            "building": 16
           },
           "failed": false,
           "errors": 0,
@@ -4596,8 +4596,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/lib/index.js",
           "profile": {
-            "factory": 4895,
-            "building": 502,
+            "factory": 4197,
+            "building": 567,
             "dependencies": 0
           },
           "failed": false,
@@ -4642,8 +4642,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/lib/index.js",
           "profile": {
-            "factory": 4895,
-            "building": 504,
+            "factory": 4197,
+            "building": 570,
             "dependencies": 0
           },
           "failed": false,
@@ -4679,8 +4679,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/lib/apiMiddleware.js",
           "profile": {
-            "factory": 833,
-            "building": 286
+            "factory": 679,
+            "building": 300
           },
           "failed": false,
           "errors": 0,
@@ -4715,8 +4715,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/lib/callApi.js",
           "profile": {
-            "factory": 900,
-            "building": 335
+            "factory": 926,
+            "building": 361
           },
           "failed": false,
           "errors": 0,
@@ -4751,8 +4751,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/node_modules/isomorphic-fetch/fetch-npm-browserify.js",
           "profile": {
-            "factory": 58,
-            "building": 40
+            "factory": 79,
+            "building": 16
           },
           "failed": false,
           "errors": 0,
@@ -4788,7 +4788,7 @@
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/lib/callApi.js",
           "profile": {
             "factory": 20,
-            "building": 875
+            "building": 900
           },
           "failed": false,
           "errors": 0,
@@ -4823,8 +4823,8 @@
           "assets": [],
           "issuer": "multi vendors",
           "profile": {
-            "factory": 76,
-            "building": 994
+            "factory": 95,
+            "building": 1045
           },
           "failed": false,
           "errors": 0,
@@ -4867,8 +4867,8 @@
           "assets": [],
           "issuer": "multi vendors",
           "profile": {
-            "factory": 71,
-            "building": 757
+            "factory": 89,
+            "building": 774
           },
           "failed": false,
           "errors": 0,
@@ -4902,9 +4902,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/index.js",
           "profile": {
-            "factory": 5126,
-            "building": 473,
-            "dependencies": 1163
+            "factory": 4465,
+            "building": 542,
+            "dependencies": 1020
           },
           "failed": false,
           "errors": 0,
@@ -4948,9 +4948,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/index.js",
           "profile": {
-            "factory": 5128,
-            "building": 485,
-            "dependencies": 1
+            "factory": 4466,
+            "building": 553,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -4985,9 +4985,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/index.js",
           "profile": {
-            "factory": 5128,
-            "building": 486,
-            "dependencies": 1
+            "factory": 4466,
+            "building": 556,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -5022,8 +5022,8 @@
           "assets": [],
           "issuer": "multi vendors",
           "profile": {
-            "factory": 73,
-            "building": 768
+            "factory": 92,
+            "building": 1034
           },
           "failed": false,
           "errors": 0,
@@ -5057,9 +5057,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/node-uuid/uuid.js",
           "profile": {
-            "factory": 5549,
-            "building": 955,
-            "dependencies": 3
+            "factory": 4690,
+            "building": 828,
+            "dependencies": 5
           },
           "failed": false,
           "errors": 0,
@@ -5175,8 +5175,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/buffer/index.js",
           "profile": {
-            "factory": 634,
-            "building": 525
+            "factory": 660,
+            "building": 520
           },
           "failed": false,
           "errors": 0,
@@ -5211,8 +5211,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/buffer/index.js",
           "profile": {
-            "factory": 277,
-            "building": 863
+            "factory": 581,
+            "building": 583
           },
           "failed": false,
           "errors": 0,
@@ -5247,8 +5247,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/buffer/index.js",
           "profile": {
-            "factory": 279,
-            "building": 861
+            "factory": 582,
+            "building": 583
           },
           "failed": false,
           "errors": 0,
@@ -5283,8 +5283,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/node-uuid/uuid.js",
           "profile": {
-            "factory": 5548,
-            "building": 913,
+            "factory": 4689,
+            "building": 773,
             "dependencies": 2
           },
           "failed": false,
@@ -5320,8 +5320,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/index.js",
           "profile": {
-            "factory": 94,
-            "building": 211,
+            "factory": 99,
+            "building": 525,
             "dependencies": 3
           },
           "failed": false,
@@ -5392,9 +5392,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/index.js",
           "profile": {
-            "factory": 95,
-            "building": 220,
-            "dependencies": 4
+            "factory": 100,
+            "building": 529,
+            "dependencies": 3
           },
           "failed": false,
           "errors": 0,
@@ -5438,9 +5438,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/create-hash.js",
           "profile": {
-            "factory": 874,
-            "building": 348,
-            "dependencies": 25
+            "factory": 598,
+            "building": 363,
+            "dependencies": 5
           },
           "failed": false,
           "errors": 0,
@@ -5475,8 +5475,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/node_modules/sha.js/index.js",
           "profile": {
-            "factory": 27,
-            "building": 14
+            "factory": 20,
+            "building": 27
           },
           "failed": false,
           "errors": 0,
@@ -5511,9 +5511,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/node_modules/sha.js/index.js",
           "profile": {
-            "factory": 27,
-            "building": 21,
-            "dependencies": 34
+            "factory": 21,
+            "building": 30
           },
           "failed": false,
           "errors": 0,
@@ -5546,10 +5545,10 @@
             1
           ],
           "assets": [],
-          "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/node_modules/sha.js/sha256.js",
+          "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/node_modules/sha.js/sha1.js",
           "profile": {
             "factory": 38,
-            "building": 13
+            "building": 17
           },
           "failed": false,
           "errors": 0,
@@ -5602,8 +5601,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/util/util.js",
           "profile": {
-            "factory": 5,
-            "building": 3
+            "factory": 4,
+            "building": 4
           },
           "failed": false,
           "errors": 0,
@@ -5674,8 +5673,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/util/util.js",
           "profile": {
-            "factory": 7,
-            "building": 2
+            "factory": 6,
+            "building": 3
           },
           "failed": false,
           "errors": 0,
@@ -5710,8 +5709,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/node_modules/sha.js/index.js",
           "profile": {
-            "factory": 28,
-            "building": 16
+            "factory": 21,
+            "building": 35,
+            "dependencies": 34
           },
           "failed": false,
           "errors": 0,
@@ -5746,9 +5746,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/node_modules/sha.js/index.js",
           "profile": {
-            "factory": 28,
-            "building": 29,
-            "dependencies": 26
+            "factory": 21,
+            "building": 49,
+            "dependencies": 20
           },
           "failed": false,
           "errors": 0,
@@ -5783,8 +5783,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/create-hash.js",
           "profile": {
-            "factory": 361,
-            "building": 519
+            "factory": 86,
+            "building": 517
           },
           "failed": false,
           "errors": 0,
@@ -5819,9 +5819,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/md5.js",
           "profile": {
-            "factory": 322,
-            "building": 36,
-            "dependencies": 0
+            "factory": 349,
+            "building": 40,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -5856,8 +5856,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/create-hash.js",
           "profile": {
-            "factory": 1203,
-            "building": 42,
+            "factory": 952,
+            "building": 37,
             "dependencies": 1
           },
           "failed": false,
@@ -5893,8 +5893,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/index.js",
           "profile": {
-            "factory": 95,
-            "building": 218,
+            "factory": 100,
+            "building": 534,
             "dependencies": 0
           },
           "failed": false,
@@ -5930,8 +5930,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/index.js",
           "profile": {
-            "factory": 95,
-            "building": 214
+            "factory": 101,
+            "building": 534
           },
           "failed": false,
           "errors": 0,
@@ -5966,9 +5966,9 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/pbkdf2.js",
           "profile": {
-            "factory": 894,
-            "building": 340,
-            "dependencies": 0
+            "factory": 881,
+            "building": 83,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -6019,9 +6019,9 @@
       "assets": [],
       "issuer": null,
       "profile": {
-        "factory": 85,
-        "building": 5865,
-        "dependencies": 18
+        "factory": 109,
+        "building": 5216,
+        "dependencies": 17
       },
       "failed": false,
       "errors": 0,
@@ -6047,7 +6047,7 @@
       "issuer": null,
       "profile": {
         "factory": 0,
-        "building": 1
+        "building": 2
       },
       "failed": false,
       "errors": 0,
@@ -6071,8 +6071,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/index.jsx",
       "profile": {
-        "factory": 602,
-        "building": 17
+        "factory": 718,
+        "building": 14
       },
       "failed": false,
       "errors": 0,
@@ -6106,7 +6106,7 @@
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"extract\":true,\"remove\":true}!/Users/yejialiang/work/kanban_app_with_router/node_modules/style-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/node_modules/css-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/node_modules/less-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/main.less",
       "profile": {
         "factory": 1,
-        "building": 1014
+        "building": 829
       },
       "failed": false,
       "errors": 0,
@@ -6129,8 +6129,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/css-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/node_modules/less-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/main.less",
       "profile": {
-        "factory": 19,
-        "building": 400
+        "factory": 18,
+        "building": 423
       },
       "failed": false,
       "errors": 0,
@@ -6172,8 +6172,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/css-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/node_modules/less-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/main.less",
       "profile": {
-        "factory": 20,
-        "building": 880,
+        "factory": 19,
+        "building": 906,
         "dependencies": 1
       },
       "failed": false,
@@ -6207,8 +6207,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"extract\":true,\"remove\":true}!/Users/yejialiang/work/kanban_app_with_router/node_modules/style-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/node_modules/css-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/node_modules/less-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/main.less",
       "profile": {
-        "factory": 791,
-        "building": 254
+        "factory": 610,
+        "building": 248
       },
       "failed": false,
       "errors": 0,
@@ -6508,9 +6508,9 @@
       "assets": [],
       "issuer": "multi vendors",
       "profile": {
-        "factory": 63,
-        "building": 719,
-        "dependencies": 3
+        "factory": 67,
+        "building": 750,
+        "dependencies": 4
       },
       "failed": false,
       "errors": 0,
@@ -6571,8 +6571,8 @@
       "assets": [],
       "issuer": "multi vendors",
       "profile": {
-        "factory": 64,
-        "building": 750
+        "factory": 82,
+        "building": 770
       },
       "failed": false,
       "errors": 0,
@@ -6642,9 +6642,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/index.js",
       "profile": {
-        "factory": 5124,
-        "building": 450,
-        "dependencies": 68
+        "factory": 4462,
+        "building": 504,
+        "dependencies": 84
       },
       "failed": false,
       "errors": 0,
@@ -6688,8 +6688,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/createBrowserHistory.js",
       "profile": {
-        "factory": 1189,
-        "building": 397
+        "factory": 1060,
+        "building": 418
       },
       "failed": false,
       "errors": 0,
@@ -6751,8 +6751,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/index.js",
       "profile": {
-        "factory": 5127,
-        "building": 486
+        "factory": 4465,
+        "building": 553
       },
       "failed": false,
       "errors": 0,
@@ -6841,8 +6841,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/createBrowserHistory.js",
       "profile": {
-        "factory": 70,
-        "building": 937
+        "factory": 86,
+        "building": 785
       },
       "failed": false,
       "errors": 0,
@@ -6913,8 +6913,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/createBrowserHistory.js",
       "profile": {
-        "factory": 71,
-        "building": 937
+        "factory": 87,
+        "building": 786
       },
       "failed": false,
       "errors": 0,
@@ -6976,9 +6976,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/createBrowserHistory.js",
       "profile": {
-        "factory": 72,
-        "building": 942,
-        "dependencies": 174
+        "factory": 87,
+        "building": 787,
+        "dependencies": 188
       },
       "failed": false,
       "errors": 0,
@@ -7022,8 +7022,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/createHashHistory.js",
       "profile": {
-        "factory": 1174,
-        "building": 398
+        "factory": 1043,
+        "building": 418
       },
       "failed": false,
       "errors": 0,
@@ -7112,9 +7112,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/createBrowserHistory.js",
       "profile": {
-        "factory": 73,
-        "building": 937,
-        "dependencies": 179
+        "factory": 95,
+        "building": 782,
+        "dependencies": 184
       },
       "failed": false,
       "errors": 0,
@@ -7158,9 +7158,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/createMemoryHistory.js",
       "profile": {
-        "factory": 53,
-        "building": 950,
-        "dependencies": 1
+        "factory": 72,
+        "building": 788,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -7204,8 +7204,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/createHistory.js",
       "profile": {
-        "factory": 543,
-        "building": 522
+        "factory": 570,
+        "building": 531
       },
       "failed": false,
       "errors": 0,
@@ -7240,8 +7240,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/node_modules/deep-equal/index.js",
       "profile": {
-        "factory": 307,
-        "building": 56
+        "factory": 292,
+        "building": 91
       },
       "failed": false,
       "errors": 0,
@@ -7276,8 +7276,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/node_modules/deep-equal/index.js",
       "profile": {
-        "factory": 307,
-        "building": 50
+        "factory": 293,
+        "building": 91
       },
       "failed": false,
       "errors": 0,
@@ -7312,8 +7312,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/createHistory.js",
       "profile": {
-        "factory": 167,
-        "building": 397
+        "factory": 179,
+        "building": 418
       },
       "failed": false,
       "errors": 0,
@@ -7348,8 +7348,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/index.js",
       "profile": {
-        "factory": 5124,
-        "building": 447,
+        "factory": 4462,
+        "building": 501,
         "dependencies": 0
       },
       "failed": false,
@@ -7394,9 +7394,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/createLocation.js",
       "profile": {
-        "factory": 70,
-        "building": 937,
-        "dependencies": 184
+        "factory": 87,
+        "building": 784,
+        "dependencies": 194
       },
       "failed": false,
       "errors": 0,
@@ -7485,8 +7485,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/useBasename.js",
       "profile": {
-        "factory": 38,
-        "building": 953
+        "factory": 61,
+        "building": 793
       },
       "failed": false,
       "errors": 0,
@@ -7528,11 +7528,11 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/useQueries.js",
+      "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/useBasename.js",
       "profile": {
-        "factory": 43,
-        "building": 950,
-        "dependencies": 164
+        "factory": 60,
+        "building": 791,
+        "dependencies": 176
       },
       "failed": false,
       "errors": 0,
@@ -7585,8 +7585,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/index.js",
       "profile": {
-        "factory": 5123,
-        "building": 446
+        "factory": 4461,
+        "building": 499
       },
       "failed": false,
       "errors": 0,
@@ -7675,9 +7675,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/index.jsx",
       "profile": {
-        "factory": 31,
-        "building": 1322,
-        "dependencies": 1
+        "factory": 32,
+        "building": 635,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -7712,8 +7712,8 @@
       "assets": [],
       "issuer": "multi vendors",
       "profile": {
-        "factory": 62,
-        "building": 677
+        "factory": 78,
+        "building": 696
       },
       "failed": false,
       "errors": 0,
@@ -7774,9 +7774,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
       "profile": {
-        "factory": 314,
-        "building": 4938,
-        "dependencies": 452
+        "factory": 353,
+        "building": 4577,
+        "dependencies": 188
       },
       "failed": false,
       "errors": 0,
@@ -7811,8 +7811,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/Router.js",
       "profile": {
-        "factory": 1585,
-        "building": 387
+        "factory": 1173,
+        "building": 394
       },
       "failed": false,
       "errors": 0,
@@ -7892,9 +7892,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/index.js",
       "profile": {
-        "factory": 5125,
-        "building": 462,
-        "dependencies": 1176
+        "factory": 4463,
+        "building": 521,
+        "dependencies": 1043
       },
       "failed": false,
       "errors": 0,
@@ -7938,9 +7938,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
       "profile": {
-        "factory": 320,
-        "building": 5308,
-        "dependencies": 1210
+        "factory": 358,
+        "building": 4659,
+        "dependencies": 1088
       },
       "failed": false,
       "errors": 0,
@@ -8038,9 +8038,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
       "profile": {
-        "factory": 320,
-        "building": 5320,
-        "dependencies": 1200
+        "factory": 360,
+        "building": 4663,
+        "dependencies": 1084
       },
       "failed": false,
       "errors": 0,
@@ -8082,10 +8082,10 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/Redirect.js",
+      "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/IndexRedirect.js",
       "profile": {
-        "factory": 1238,
-        "building": 386
+        "factory": 1147,
+        "building": 394
       },
       "failed": false,
       "errors": 0,
@@ -8183,8 +8183,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/RoutingContext.js",
       "profile": {
-        "factory": 76,
-        "building": 936,
+        "factory": 99,
+        "building": 786,
         "dependencies": 0
       },
       "failed": false,
@@ -8220,9 +8220,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/Redirect.js",
       "profile": {
-        "factory": 106,
-        "building": 924,
-        "dependencies": 210
+        "factory": 140,
+        "building": 772,
+        "dependencies": 215
       },
       "failed": false,
       "errors": 0,
@@ -8293,9 +8293,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
       "profile": {
-        "factory": 319,
-        "building": 5315,
-        "dependencies": 1204
+        "factory": 358,
+        "building": 4650,
+        "dependencies": 1096
       },
       "failed": false,
       "errors": 0,
@@ -8348,9 +8348,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/index.js",
       "profile": {
-        "factory": 5127,
-        "building": 479,
-        "dependencies": 1156
+        "factory": 4465,
+        "building": 550,
+        "dependencies": 1013
       },
       "failed": false,
       "errors": 0,
@@ -8403,8 +8403,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/useQueries.js",
       "profile": {
-        "factory": 974,
-        "building": 518
+        "factory": 822,
+        "building": 530
       },
       "failed": false,
       "errors": 0,
@@ -8439,8 +8439,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/node_modules/query-string/index.js",
       "profile": {
-        "factory": 578,
-        "building": 338
+        "factory": 594,
+        "building": 358
       },
       "failed": false,
       "errors": 0,
@@ -8475,9 +8475,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/useRoutes.js",
       "profile": {
-        "factory": 73,
-        "building": 928,
-        "dependencies": 2
+        "factory": 112,
+        "building": 774,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -8512,8 +8512,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/useRoutes.js",
       "profile": {
-        "factory": 74,
-        "building": 931
+        "factory": 113,
+        "building": 776
       },
       "failed": false,
       "errors": 0,
@@ -8548,8 +8548,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/TransitionUtils.js",
       "profile": {
-        "factory": 202,
-        "building": 386
+        "factory": 210,
+        "building": 393
       },
       "failed": false,
       "errors": 0,
@@ -8602,8 +8602,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/useRoutes.js",
       "profile": {
-        "factory": 74,
-        "building": 934,
+        "factory": 113,
+        "building": 779,
         "dependencies": 0
       },
       "failed": false,
@@ -8639,9 +8639,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/useRoutes.js",
       "profile": {
-        "factory": 74,
-        "building": 936,
-        "dependencies": 197
+        "factory": 113,
+        "building": 780,
+        "dependencies": 206
       },
       "failed": false,
       "errors": 0,
@@ -8676,9 +8676,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/useRoutes.js",
       "profile": {
-        "factory": 75,
-        "building": 941,
-        "dependencies": 191
+        "factory": 114,
+        "building": 784,
+        "dependencies": 201
       },
       "failed": false,
       "errors": 0,
@@ -8713,8 +8713,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
       "profile": {
-        "factory": 321,
-        "building": 5321,
+        "factory": 360,
+        "building": 4669,
         "dependencies": 0
       },
       "failed": false,
@@ -8804,8 +8804,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
       "profile": {
-        "factory": 315,
-        "building": 4950,
+        "factory": 354,
+        "building": 4595,
         "dependencies": 0
       },
       "failed": false,
@@ -8850,9 +8850,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
       "profile": {
-        "factory": 315,
-        "building": 4953,
-        "dependencies": 1
+        "factory": 354,
+        "building": 4599,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -8887,9 +8887,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
       "profile": {
-        "factory": 316,
-        "building": 5297,
-        "dependencies": 1227
+        "factory": 354,
+        "building": 4604,
+        "dependencies": 1146
       },
       "failed": false,
       "errors": 0,
@@ -8924,9 +8924,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
       "profile": {
-        "factory": 317,
-        "building": 5284,
-        "dependencies": 2
+        "factory": 355,
+        "building": 4625,
+        "dependencies": 1126
       },
       "failed": false,
       "errors": 0,
@@ -8970,9 +8970,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
       "profile": {
-        "factory": 316,
-        "building": 5292,
-        "dependencies": 1232
+        "factory": 355,
+        "building": 4614,
+        "dependencies": 1137
       },
       "failed": false,
       "errors": 0,
@@ -9007,9 +9007,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
       "profile": {
-        "factory": 317,
-        "building": 5302,
-        "dependencies": 1221
+        "factory": 356,
+        "building": 4633,
+        "dependencies": 1117
       },
       "failed": false,
       "errors": 0,
@@ -9044,9 +9044,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
       "profile": {
-        "factory": 318,
-        "building": 5299,
-        "dependencies": 0
+        "factory": 356,
+        "building": 4636,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -9081,9 +9081,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
       "profile": {
-        "factory": 318,
-        "building": 5306,
-        "dependencies": 1216
+        "factory": 357,
+        "building": 4639,
+        "dependencies": 1110
       },
       "failed": false,
       "errors": 0,
@@ -9118,8 +9118,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
       "profile": {
-        "factory": 319,
-        "building": 5303,
+        "factory": 358,
+        "building": 4640,
         "dependencies": 0
       },
       "failed": false,
@@ -9155,9 +9155,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-router/lib/index.js",
       "profile": {
-        "factory": 321,
-        "building": 5324,
-        "dependencies": 1196
+        "factory": 361,
+        "building": 4673,
+        "dependencies": 1073
       },
       "failed": false,
       "errors": 0,
@@ -9192,9 +9192,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/index.js",
       "profile": {
-        "factory": 5125,
-        "building": 469,
-        "dependencies": 1169
+        "factory": 4463,
+        "building": 527,
+        "dependencies": 1038
       },
       "failed": false,
       "errors": 0,
@@ -9238,9 +9238,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/index.js",
       "profile": {
-        "factory": 5126,
-        "building": 485,
-        "dependencies": 38
+        "factory": 4464,
+        "building": 538,
+        "dependencies": 51
       },
       "failed": false,
       "errors": 0,
@@ -9284,9 +9284,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/routes/routes.jsx",
       "profile": {
-        "factory": 106,
-        "building": 247,
-        "dependencies": 2
+        "factory": 704,
+        "building": 253,
+        "dependencies": 3
       },
       "failed": false,
       "errors": 0,
@@ -9321,8 +9321,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/containers/app.jsx",
       "profile": {
-        "factory": 828,
-        "building": 53,
+        "factory": 373,
+        "building": 543,
         "dependencies": 2
       },
       "failed": false,
@@ -9358,9 +9358,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/routes/routes.jsx",
       "profile": {
-        "factory": 106,
-        "building": 447,
-        "dependencies": 114
+        "factory": 704,
+        "building": 449,
+        "dependencies": 98
       },
       "failed": false,
       "errors": 0,
@@ -9395,8 +9395,8 @@
       "assets": [],
       "issuer": "multi vendors",
       "profile": {
-        "factory": 74,
-        "building": 989
+        "factory": 93,
+        "building": 1022
       },
       "failed": false,
       "errors": 0,
@@ -9466,9 +9466,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-immutable-render-mixin/lib/index.js",
       "profile": {
-        "factory": 4897,
-        "building": 499,
-        "dependencies": 19
+        "factory": 4216,
+        "building": 557,
+        "dependencies": 23
       },
       "failed": false,
       "errors": 0,
@@ -9512,8 +9512,8 @@
       "assets": [],
       "issuer": "multi vendors",
       "profile": {
-        "factory": 72,
-        "building": 981
+        "factory": 90,
+        "building": 1022
       },
       "failed": false,
       "errors": 0,
@@ -9583,9 +9583,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-immutable-render-mixin/lib/index.js",
       "profile": {
-        "factory": 4898,
-        "building": 499,
-        "dependencies": 839
+        "factory": 4217,
+        "building": 558
       },
       "failed": false,
       "errors": 0,
@@ -9618,10 +9617,10 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-immutable-render-mixin/lib/immutableRenderDecorator.js",
+      "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-immutable-render-mixin/lib/immutableRenderMixin.js",
       "profile": {
-        "factory": 842,
-        "building": 286,
+        "factory": 692,
+        "building": 295,
         "dependencies": 0
       },
       "failed": false,
@@ -9666,8 +9665,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/react-immutable-render-mixin/lib/index.js",
       "profile": {
-        "factory": 4898,
-        "building": 496
+        "factory": 4217,
+        "building": 559,
+        "dependencies": 692
       },
       "failed": false,
       "errors": 0,
@@ -9702,9 +9702,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/containers/home.jsx",
       "profile": {
-        "factory": 629,
-        "building": 224,
-        "dependencies": 118
+        "factory": 177,
+        "building": 595,
+        "dependencies": 202
       },
       "failed": false,
       "errors": 0,
@@ -9739,9 +9739,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/containers/home.jsx",
       "profile": {
-        "factory": 629,
-        "building": 132,
-        "dependencies": 210
+        "factory": 178,
+        "building": 677,
+        "dependencies": 118
       },
       "failed": false,
       "errors": 0,
@@ -9776,8 +9776,8 @@
       "assets": [],
       "issuer": "multi vendors",
       "profile": {
-        "factory": 60,
-        "building": 669
+        "factory": 64,
+        "building": 700
       },
       "failed": false,
       "errors": 0,
@@ -9820,8 +9820,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/lodash/index.js",
       "profile": {
-        "factory": 325,
-        "building": 5283
+        "factory": 348,
+        "building": 4585
       },
       "failed": false,
       "errors": 0,
@@ -9856,8 +9856,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/lodash/lodash.js",
       "profile": {
-        "factory": 1030,
-        "building": 239
+        "factory": 958,
+        "building": 248
       },
       "failed": false,
       "errors": 0,
@@ -9892,8 +9892,8 @@
       "assets": [],
       "issuer": "multi vendors",
       "profile": {
-        "factory": 48,
-        "building": 678
+        "factory": 59,
+        "building": 702
       },
       "failed": false,
       "errors": 0,
@@ -9936,9 +9936,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/containers/home.jsx",
       "profile": {
-        "factory": 630,
-        "building": 274,
-        "dependencies": 67
+        "factory": 178,
+        "building": 727,
+        "dependencies": 69
       },
       "failed": false,
       "errors": 0,
@@ -9973,9 +9973,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/containers/home.jsx",
       "profile": {
-        "factory": 630,
-        "building": 316,
-        "dependencies": 34
+        "factory": 179,
+        "building": 790,
+        "dependencies": 80
       },
       "failed": false,
       "errors": 0,
@@ -10010,8 +10010,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/reducers/items.js",
       "profile": {
-        "factory": 163,
-        "building": 53
+        "factory": 31,
+        "building": 44
       },
       "failed": false,
       "errors": 0,
@@ -10064,9 +10064,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/routes/routes.jsx",
       "profile": {
-        "factory": 106,
-        "building": 521,
-        "dependencies": 1
+        "factory": 705,
+        "building": 524,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -10102,7 +10102,7 @@
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/index.jsx",
       "profile": {
         "factory": 34,
-        "building": 565,
+        "building": 681,
         "dependencies": 2
       },
       "failed": false,
@@ -10138,9 +10138,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/store/configureStore.js",
       "profile": {
-        "factory": 890,
-        "building": 512,
-        "dependencies": 27
+        "factory": 691,
+        "building": 529,
+        "dependencies": 53
       },
       "failed": false,
       "errors": 0,
@@ -10175,8 +10175,8 @@
       "assets": [],
       "issuer": "multi vendors",
       "profile": {
-        "factory": 75,
-        "building": 993
+        "factory": 96,
+        "building": 1042
       },
       "failed": false,
       "errors": 0,
@@ -10219,8 +10219,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/lib/index.js",
       "profile": {
-        "factory": 4894,
-        "building": 499
+        "factory": 4195,
+        "building": 564
       },
       "failed": false,
       "errors": 0,
@@ -10273,9 +10273,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/lib/index.js",
       "profile": {
-        "factory": 4895,
-        "building": 500,
-        "dependencies": 0
+        "factory": 4196,
+        "building": 566,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -10319,8 +10319,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/lib/validateRSAA.js",
       "profile": {
-        "factory": 1125,
-        "building": 385
+        "factory": 983,
+        "building": 395
       },
       "failed": false,
       "errors": 0,
@@ -10355,8 +10355,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/node_modules/lodash.isplainobject/index.js",
       "profile": {
-        "factory": 822,
-        "building": 51
+        "factory": 827,
+        "building": 84
       },
       "failed": false,
       "errors": 0,
@@ -10391,8 +10391,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/node_modules/lodash.isplainobject/index.js",
       "profile": {
-        "factory": 822,
-        "building": 61
+        "factory": 827,
+        "building": 85
       },
       "failed": false,
       "errors": 0,
@@ -10436,9 +10436,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/node_modules/lodash.isplainobject/index.js",
       "profile": {
-        "factory": 823,
-        "building": 53,
-        "dependencies": 18
+        "factory": 828,
+        "building": 86,
+        "dependencies": 19
       },
       "failed": false,
       "errors": 0,
@@ -10473,8 +10473,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/node_modules/lodash.isplainobject/node_modules/lodash.keysin/index.js",
       "profile": {
-        "factory": 49,
-        "building": 22
+        "factory": 63,
+        "building": 16
       },
       "failed": false,
       "errors": 0,
@@ -10509,8 +10509,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/lib/index.js",
       "profile": {
-        "factory": 4895,
-        "building": 502,
+        "factory": 4197,
+        "building": 567,
         "dependencies": 0
       },
       "failed": false,
@@ -10555,8 +10555,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/lib/index.js",
       "profile": {
-        "factory": 4895,
-        "building": 504,
+        "factory": 4197,
+        "building": 570,
         "dependencies": 0
       },
       "failed": false,
@@ -10592,8 +10592,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/lib/apiMiddleware.js",
       "profile": {
-        "factory": 833,
-        "building": 286
+        "factory": 679,
+        "building": 300
       },
       "failed": false,
       "errors": 0,
@@ -10628,8 +10628,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/lib/callApi.js",
       "profile": {
-        "factory": 900,
-        "building": 335
+        "factory": 926,
+        "building": 361
       },
       "failed": false,
       "errors": 0,
@@ -10664,8 +10664,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/node_modules/isomorphic-fetch/fetch-npm-browserify.js",
       "profile": {
-        "factory": 58,
-        "building": 40
+        "factory": 79,
+        "building": 16
       },
       "failed": false,
       "errors": 0,
@@ -10701,7 +10701,7 @@
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/redux-api-middleware/lib/callApi.js",
       "profile": {
         "factory": 20,
-        "building": 875
+        "building": 900
       },
       "failed": false,
       "errors": 0,
@@ -10736,8 +10736,8 @@
       "assets": [],
       "issuer": "multi vendors",
       "profile": {
-        "factory": 76,
-        "building": 994
+        "factory": 95,
+        "building": 1045
       },
       "failed": false,
       "errors": 0,
@@ -10780,9 +10780,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/store/configureStore.js",
       "profile": {
-        "factory": 891,
-        "building": 525,
-        "dependencies": 3
+        "factory": 691,
+        "building": 547,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -10817,8 +10817,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/reducers/index.js",
       "profile": {
-        "factory": 525,
-        "building": 180,
+        "factory": 538,
+        "building": 340,
         "dependencies": 1
       },
       "failed": false,
@@ -10854,9 +10854,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/babel-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/reducers/index.js",
       "profile": {
-        "factory": 525,
-        "building": 336,
-        "dependencies": 9
+        "factory": 538,
+        "building": 363,
+        "dependencies": 8
       },
       "failed": false,
       "errors": 0,
@@ -10891,8 +10891,8 @@
       "assets": [],
       "issuer": "multi vendors",
       "profile": {
-        "factory": 71,
-        "building": 757
+        "factory": 89,
+        "building": 774
       },
       "failed": false,
       "errors": 0,
@@ -10926,9 +10926,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/index.js",
       "profile": {
-        "factory": 5126,
-        "building": 473,
-        "dependencies": 1163
+        "factory": 4465,
+        "building": 542,
+        "dependencies": 1020
       },
       "failed": false,
       "errors": 0,
@@ -10972,9 +10972,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/index.js",
       "profile": {
-        "factory": 5128,
-        "building": 485,
-        "dependencies": 1
+        "factory": 4466,
+        "building": 553,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -11009,9 +11009,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/history/lib/index.js",
       "profile": {
-        "factory": 5128,
-        "building": 486,
-        "dependencies": 1
+        "factory": 4466,
+        "building": 556,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -11046,8 +11046,8 @@
       "assets": [],
       "issuer": "multi vendors",
       "profile": {
-        "factory": 73,
-        "building": 768
+        "factory": 92,
+        "building": 1034
       },
       "failed": false,
       "errors": 0,
@@ -11081,9 +11081,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/node-uuid/uuid.js",
       "profile": {
-        "factory": 5549,
-        "building": 955,
-        "dependencies": 3
+        "factory": 4690,
+        "building": 828,
+        "dependencies": 5
       },
       "failed": false,
       "errors": 0,
@@ -11199,8 +11199,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/buffer/index.js",
       "profile": {
-        "factory": 634,
-        "building": 525
+        "factory": 660,
+        "building": 520
       },
       "failed": false,
       "errors": 0,
@@ -11235,8 +11235,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/buffer/index.js",
       "profile": {
-        "factory": 277,
-        "building": 863
+        "factory": 581,
+        "building": 583
       },
       "failed": false,
       "errors": 0,
@@ -11271,8 +11271,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/buffer/index.js",
       "profile": {
-        "factory": 279,
-        "building": 861
+        "factory": 582,
+        "building": 583
       },
       "failed": false,
       "errors": 0,
@@ -11307,8 +11307,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/node-uuid/uuid.js",
       "profile": {
-        "factory": 5548,
-        "building": 913,
+        "factory": 4689,
+        "building": 773,
         "dependencies": 2
       },
       "failed": false,
@@ -11344,8 +11344,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/index.js",
       "profile": {
-        "factory": 94,
-        "building": 211,
+        "factory": 99,
+        "building": 525,
         "dependencies": 3
       },
       "failed": false,
@@ -11416,9 +11416,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/index.js",
       "profile": {
-        "factory": 95,
-        "building": 220,
-        "dependencies": 4
+        "factory": 100,
+        "building": 529,
+        "dependencies": 3
       },
       "failed": false,
       "errors": 0,
@@ -11462,9 +11462,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/create-hash.js",
       "profile": {
-        "factory": 874,
-        "building": 348,
-        "dependencies": 25
+        "factory": 598,
+        "building": 363,
+        "dependencies": 5
       },
       "failed": false,
       "errors": 0,
@@ -11499,8 +11499,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/node_modules/sha.js/index.js",
       "profile": {
-        "factory": 27,
-        "building": 14
+        "factory": 20,
+        "building": 27
       },
       "failed": false,
       "errors": 0,
@@ -11535,9 +11535,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/node_modules/sha.js/index.js",
       "profile": {
-        "factory": 27,
-        "building": 21,
-        "dependencies": 34
+        "factory": 21,
+        "building": 30
       },
       "failed": false,
       "errors": 0,
@@ -11570,10 +11569,10 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/node_modules/sha.js/sha256.js",
+      "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/node_modules/sha.js/sha1.js",
       "profile": {
         "factory": 38,
-        "building": 13
+        "building": 17
       },
       "failed": false,
       "errors": 0,
@@ -11626,8 +11625,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/util/util.js",
       "profile": {
-        "factory": 5,
-        "building": 3
+        "factory": 4,
+        "building": 4
       },
       "failed": false,
       "errors": 0,
@@ -11698,8 +11697,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/util/util.js",
       "profile": {
-        "factory": 7,
-        "building": 2
+        "factory": 6,
+        "building": 3
       },
       "failed": false,
       "errors": 0,
@@ -11734,8 +11733,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/node_modules/sha.js/index.js",
       "profile": {
-        "factory": 28,
-        "building": 16
+        "factory": 21,
+        "building": 35,
+        "dependencies": 34
       },
       "failed": false,
       "errors": 0,
@@ -11770,9 +11770,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/node_modules/sha.js/index.js",
       "profile": {
-        "factory": 28,
-        "building": 29,
-        "dependencies": 26
+        "factory": 21,
+        "building": 49,
+        "dependencies": 20
       },
       "failed": false,
       "errors": 0,
@@ -11807,8 +11807,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/create-hash.js",
       "profile": {
-        "factory": 361,
-        "building": 519
+        "factory": 86,
+        "building": 517
       },
       "failed": false,
       "errors": 0,
@@ -11843,9 +11843,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/md5.js",
       "profile": {
-        "factory": 322,
-        "building": 36,
-        "dependencies": 0
+        "factory": 349,
+        "building": 40,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -11880,8 +11880,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/create-hash.js",
       "profile": {
-        "factory": 1203,
-        "building": 42,
+        "factory": 952,
+        "building": 37,
         "dependencies": 1
       },
       "failed": false,
@@ -11917,8 +11917,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/index.js",
       "profile": {
-        "factory": 95,
-        "building": 218,
+        "factory": 100,
+        "building": 534,
         "dependencies": 0
       },
       "failed": false,
@@ -11954,8 +11954,8 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/index.js",
       "profile": {
-        "factory": 95,
-        "building": 214
+        "factory": 101,
+        "building": 534
       },
       "failed": false,
       "errors": 0,
@@ -11990,9 +11990,9 @@
       "assets": [],
       "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/webpack/node_modules/node-libs-browser/node_modules/crypto-browserify/pbkdf2.js",
       "profile": {
-        "factory": 894,
-        "building": 340,
-        "dependencies": 0
+        "factory": 881,
+        "building": 83,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -12052,7 +12052,7 @@
               "issuer": null,
               "profile": {
                 "factory": 2,
-                "building": 53
+                "building": 49
               },
               "failed": false,
               "errors": 0,
@@ -12077,8 +12077,8 @@
               "assets": [],
               "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/css-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/node_modules/less-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/main.less",
               "profile": {
-                "factory": 0,
-                "building": 1
+                "factory": 1,
+                "building": 2
               },
               "failed": false,
               "errors": 0,
@@ -12122,8 +12122,8 @@
               "assets": [],
               "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/css-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/node_modules/less-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/main.less",
               "profile": {
-                "factory": 2,
-                "building": 305,
+                "factory": 3,
+                "building": 297,
                 "dependencies": 1
               },
               "failed": false,
@@ -12175,7 +12175,7 @@
           "issuer": null,
           "profile": {
             "factory": 2,
-            "building": 53
+            "building": 49
           },
           "failed": false,
           "errors": 0,
@@ -12200,8 +12200,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/css-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/node_modules/less-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/main.less",
           "profile": {
-            "factory": 0,
-            "building": 1
+            "factory": 1,
+            "building": 2
           },
           "failed": false,
           "errors": 0,
@@ -12245,8 +12245,8 @@
           "assets": [],
           "issuer": "/Users/yejialiang/work/kanban_app_with_router/node_modules/css-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/node_modules/less-loader/index.js!/Users/yejialiang/work/kanban_app_with_router/app/main.less",
           "profile": {
-            "factory": 2,
-            "building": 305,
+            "factory": 3,
+            "building": 297,
             "dependencies": 1
           },
           "failed": false,

@@ -51,6 +51,7 @@
   "dependencies": {
     "body-parser": "^1.15.0",
     "classnames": "^2.2.3",
+    "compression": "^1.6.1",
     "ejs": "^2.4.1",
     "express": "^4.13.4",
     "history": "^1.17.0",

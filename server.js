@@ -1,6 +1,7 @@
 import path from 'path';
 import express from 'express';
 import bodyParser from 'body-parser';
+import compression from 'compression';
 
 import React from 'react';
 import { renderToString } from 'react-dom/server';
@@ -20,8 +21,9 @@ const port = process.env.PORT || 3000;
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-app.use('/build', express.static(path.join(__dirname, 'build')));  //设置build文件夹为存放静态文件的目录
+app.use(compression());
 app.use(bodyParser.json());
+app.use('/build', express.static(path.join(__dirname, 'build')));  //设置build文件夹为存放静态文件的目录
 // app,use('/api', apiRoutes);
 app.use(handleRender);
 
